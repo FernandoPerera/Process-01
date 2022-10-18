@@ -10,10 +10,10 @@ public class Main {
 
         Metodos metodos = new Metodos();
 
-        while ( contador <  5 ) {
-            metodos.lanzarProceso("cmd.exe", ("/C"),"start chrome");
-            contador++;
-        }
+
+        metodos.lanzarProceso("cmd.exe", ("/C"),"notepad", 5);
+        contador++;
+
 
     }
 }
